@@ -1,0 +1,13 @@
+language: php 
+
+php:
+  -'7.0'
+
+nv :
+  global :
+    - 'FTP_USER=ritamasfufah'
+    - 'FTP_PASS=123holmes'
+
+    script:
+      - "curl -u $FTP_USER::$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html'
+      - "curl -T coba.php -u $FTP_USERS.:$FTP_PASS ftp://file.000webhost.com/public_html"
