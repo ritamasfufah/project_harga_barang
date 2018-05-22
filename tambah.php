@@ -1,4 +1,4 @@
-<h2>Formulir Entry Harga Barang</h2>
+<h2>Formulir Tambah Data Mahasiswa</h2>
 <hr>
 <form action="simpan-baru.php" method="post"> 
 <table>
