@@ -1,4 +1,4 @@
-<h2>Formulir Edit Harga Barang</h2>
+<h2>Formulir Edit Data Mahasiswa</h2>
 <hr>
 <form action="update.php" method="post"> 
 
